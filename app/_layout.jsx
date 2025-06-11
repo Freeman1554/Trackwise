@@ -9,7 +9,9 @@ export default function RootLayout() {
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
     PoppinsBold: require('../assets/fonts/Poppins-Bold.ttf'),
     PoppinsSemi: require('../assets/fonts/Poppins-SemiBold.ttf'),
-    PoppinsMedium: require('../assets/fonts/Poppins-Medium.ttf')
+    PoppinsMedium: require('../assets/fonts/Poppins-Medium.ttf'),
+    PoppinsRegular: require('../assets/fonts/Poppins-Regular.ttf')
+
 
   });
 
@@ -20,9 +22,10 @@ export default function RootLayout() {
 
   return (
     
-      <Stack screenOptions={{headerShown: true}}>
+      <Stack screenOptions={{headerShown: false}}>
         <Stack.Screen name="Onboarding" />
         <Stack.Screen name="(auth)" />
+        <Stack.Screen name="+not-found" />
         <Stack.Screen name="(tabs)" />
       </Stack>
 
