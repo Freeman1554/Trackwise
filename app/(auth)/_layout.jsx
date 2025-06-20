@@ -1,6 +1,7 @@
-import {Stack} from 'expo-router'
+import {Stack} from "expo-router"
 
-  const AuthScreen = () => {
+
+  const AuthScreens = ()=> {
  return(
     <Stack screenOptions={{headerShown: false}}>
      <Stack.Screen name="login" />
