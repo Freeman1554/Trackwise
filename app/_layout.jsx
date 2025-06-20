@@ -20,10 +20,15 @@ export default function RootLayout() {
 
   return (
     
-      <Stack screenOptions={{headerShown: true}}>
+      <Stack screenOptions={{headerShown: false}}>
         <Stack.Screen name="Onboarding" />
         <Stack.Screen name="(auth)" />
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name='account' />
+        <Stack.Screen name='home' />
+        <Stack.Screen name='expense' />
+        <Stack.Screen name='budget' />
+        <Stack.Screen name='setting' />
       </Stack>
 
 

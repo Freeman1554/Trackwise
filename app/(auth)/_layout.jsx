@@ -1,6 +1,6 @@
 import {Stack} from 'expo-router'
 
-  export default function AuthScreen() {
+  const AuthScreen = () => {
  return(
     <Stack screenOptions={{headerShown: false}}>
      <Stack.Screen name="login" />
@@ -9,3 +9,4 @@ import {Stack} from 'expo-router'
     </Stack>
   );
 }
+export default AuthScreen;
